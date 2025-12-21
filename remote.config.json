@@ -1,0 +1,65 @@
+{
+    "panelType": "v2board",
+    "panels": {
+        "AfeiCloud": [
+            {
+                "url": "https://v2board.afeicloud.de",
+                "description": "AfeiCloud 主面板"
+            }
+        ]
+    },
+    "proxy": [
+        {
+            "url": "https://proxy.afeicloud.de",
+            "description": "AfeiCloud 代理中转",
+            "protocol": "https"
+        }
+    ],
+    "ws": [
+        {
+            "url": "wss://ws.afeicloud.de",
+            "description": "AfeiCloud WebSocket 服务"
+        }
+    ],
+    "update": [
+        {
+            "url": "https://update.afeicloud.de",
+            "description": "AfeiCloud 更新服务"
+        }
+    ],
+    "onlineSupport": [
+        {
+            "url": "https://support.afeicloud.de",
+            "description": "AfeiCloud 在线客服",
+            "apiBaseUrl": "https://v2board.afeicloud.de",
+            "wsBaseUrl": "wss://v2board.afeicloud.de"
+        }
+    ],
+    "subscription": {
+        "urls": [
+            {
+                "url": "https://v2board.afeicloud.de",
+                "description": "AfeiCloud 订阅",
+                "supportEncrypt": true,
+                "endpoints": {
+                    "v1": {
+                        "path": "/api/v1/client/subscribe?token={token}",
+                        "requiresToken": true,
+                        "method": "GET",
+                        "description": "V1 普通订阅接口",
+                        "isEncrypt": false
+                    },
+                    "v2": {
+                        "path": "/api/v2/subscription-encrypt/{token}",
+                        "requiresToken": true,
+                        "method": "GET",
+                        "description": "V2 加密订阅接口",
+                        "isEncrypt": true
+                    }
+                }
+            }
+        ],
+        "enableEncrypt": true,
+        "preferredEncryptVersion": "v2"
+    }
+}
