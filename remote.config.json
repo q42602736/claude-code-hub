@@ -8,33 +8,10 @@
             }
         ]
     },
-    "proxy": [
-        {
-            "url": "https://proxy.afeicloud.de",
-            "description": "AfeiCloud 代理中转",
-            "protocol": "https"
-        }
-    ],
-    "ws": [
-        {
-            "url": "wss://ws.afeicloud.de",
-            "description": "AfeiCloud WebSocket 服务"
-        }
-    ],
-    "update": [
-        {
-            "url": "https://update.afeicloud.de",
-            "description": "AfeiCloud 更新服务"
-        }
-    ],
-    "onlineSupport": [
-        {
-            "url": "https://support.afeicloud.de",
-            "description": "AfeiCloud 在线客服",
-            "apiBaseUrl": "https://v2board.afeicloud.de",
-            "wsBaseUrl": "wss://v2board.afeicloud.de"
-        }
-    ],
+    "proxy": [],
+    "ws": [],
+    "update": [],
+    "onlineSupport": [],
     "subscription": {
         "urls": [
             {
