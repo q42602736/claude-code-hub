@@ -4,7 +4,7 @@
     "panels": {
         "cloud": [
             {
-                "url": "https://v2board.afeicloude.de",
+                "url": "https://v2board.afeicloud.de",
                 "description": "站点1"
             }
         ]
@@ -33,7 +33,7 @@
     "subscription": {
         "urls": [
             {
-                "url": "https://v2board.afeicloude.de",
+                "url": "https://v2board.afeicloud.de",
                 "description": "订阅 - 站点1",
                 "supportEncrypt": true,
                 "endpoints": {
