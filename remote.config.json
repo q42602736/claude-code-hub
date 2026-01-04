@@ -1,22 +1,40 @@
 {
     "panelType": "v2board",
+    "websiteUrl": "https://example.com",
     "panels": {
-        "企鹅云": [
+        "cloud": [
             {
-                "url": "https://v2board.afeicloud.de",
-                "description": "AfeiCloud 主面板"
+                "url": "https://v2board.afeicloude.de",
+                "description": "站点1"
             }
         ]
     },
     "proxy": [],
     "ws": [],
     "update": [],
-    "onlineSupport": [],
+    "onlineSupport": [
+        {
+            "type": "crisp",
+            "websiteId": "",
+            "description": "CRISP 在线客服"
+        },
+        {
+            "type": "chatway",
+            "chatwayWidgetId": "",
+            "description": "Chatway 在线客服（备选）"
+        },
+        {
+            "type": "tawkto",
+            "propertyId": "68cd20cf82145919257de088",
+            "widgetId": "1j5gkgb91",
+            "description": "Tawk.to 在线客服"
+        }
+    ],
     "subscription": {
         "urls": [
             {
-                "url": "https://v2board.afeicloud.de",
-                "description": "AfeiCloud 订阅",
+                "url": "https://v2board.afeicloude.de",
+                "description": "订阅 - 站点1",
                 "supportEncrypt": true,
                 "endpoints": {
                     "v1": {
