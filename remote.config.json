@@ -13,6 +13,11 @@
     "ws": [],
     "update": [],
     "onlineSupport": [
+         {
+             "type": "browser",
+             "url": "https://chat.02000.top/client/qw.html",
+             "description": "在线客服"
+         },
         {
             "type": "crisp",
             "websiteId": "",
@@ -25,8 +30,8 @@
         },
         {
             "type": "tawkto",
-            "propertyId": "68cd20cf82145919257de088",
-            "widgetId": "1j5gkgb91",
+            "propertyId": "",
+            "widgetId": "",
             "description": "Tawk.to 在线客服"
         }
     ],
