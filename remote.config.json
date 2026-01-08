@@ -4,7 +4,7 @@
     "panels": {
         "cloud": [
             {
-                "url": "https://api.bluetileapp.org:20443",
+                "url": "https://v2board.afeicloud.de",
                 "description": "站点1"
             }
         ]
@@ -15,7 +15,7 @@
     "onlineSupport": [
          {
              "type": "browser",
-             "url": "https://chat.02000.top/client/qw.html",
+             "url": "",
              "description": "在线客服"
          },
         {
@@ -38,23 +38,16 @@
     "subscription": {
         "urls": [
             {
-                "url": "https://api.bluetileapp.org:20443",
+                "url": "https://v2board.afeicloud.de",
                 "description": "订阅 - 站点1",
                 "supportEncrypt": true,
                 "endpoints": {
                     "v1": {
-                        "path": "/7e1c2a94fbd30658c4a8d1ef92b7ac03?token={token}",
+                        "path": "/api/v1/client/subscribe?token={token}",
                         "requiresToken": true,
                         "method": "GET",
                         "description": "V1 普通订阅接口",
                         "isEncrypt": false
-                    },
-                    "v2": {
-                        "path": "/api/v2/subscription-encrypt/{token}",
-                        "requiresToken": true,
-                        "method": "GET",
-                        "description": "V2 加密订阅接口",
-                        "isEncrypt": true
                     }
                 }
             }
