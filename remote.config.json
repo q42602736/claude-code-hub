@@ -15,28 +15,5 @@
     },
     "proxy": [],
     "ws": [],
-    "update": [],
-    "onlineSupport": [
-        {
-            "type": "browser",
-            "url": "",
-            "description": "在线客服"
-        },
-        {
-            "type": "crisp",
-            "websiteId": "",
-            "description": "CRISP 在线客服"
-        },
-        {
-            "type": "chatway",
-            "chatwayWidgetId": "",
-            "description": "Chatway 在线客服（备选）"
-        },
-        {
-            "type": "tawkto",
-            "propertyId": "",
-            "widgetId": "",
-            "description": "Tawk.to 在线客服"
-        }
-    ]
+    "update": []
 }
