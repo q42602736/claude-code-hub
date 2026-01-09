@@ -2,10 +2,14 @@
     "panelType": "v2board",
     "websiteUrl": "https://example.com",
     "panels": {
-        "cloud": [
+        "claude": [
             {
                 "url": "https://v2board.afeicloud.de",
                 "description": "站点1"
+            },
+            {
+                "url": "",
+                "description": "站点2"
             }
         ]
     },
@@ -13,11 +17,11 @@
     "ws": [],
     "update": [],
     "onlineSupport": [
-         {
-             "type": "browser",
-             "url": "",
-             "description": "在线客服"
-         },
+        {
+            "type": "browser",
+            "url": "",
+            "description": "在线客服"
+        },
         {
             "type": "crisp",
             "websiteId": "",
@@ -34,25 +38,5 @@
             "widgetId": "",
             "description": "Tawk.to 在线客服"
         }
-    ],
-    "subscription": {
-        "urls": [
-            {
-                "url": "https://v2board.afeicloud.de",
-                "description": "订阅 - 站点1",
-                "supportEncrypt": true,
-                "endpoints": {
-                    "v1": {
-                        "path": "/api/v1/client/subscribe?token={token}",
-                        "requiresToken": true,
-                        "method": "GET",
-                        "description": "V1 普通订阅接口",
-                        "isEncrypt": false
-                    }
-                }
-            }
-        ],
-        "enableEncrypt": true,
-        "preferredEncryptVersion": "v2"
-    }
+    ]
 }
