@@ -1,10 +1,10 @@
 {
-    "panelType": "v2board",
+    "panelType": "sspanel",
     "websiteUrl": "https://example.com",
     "panels": {
         "claude": [
             {
-                "url": "https://v2board.afeicloud.de",
+                "url": "https://sspanel.afeicloud.de",
                 "description": "站点1"
             }
         ]
