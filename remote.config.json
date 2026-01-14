@@ -1,5 +1,5 @@
 {
-    "panelType": "sspanel",
+    "panelType": "v2board",
     "websiteUrl": "https://example.com",
     "panels": {
         "claude": [
