@@ -3,13 +3,9 @@
     "websiteUrl": "https://example.com",
     "panels": {
         "claude": [
-            {
-                "url": "https://mii.jiasumao.cc",
-                "description": "站点1"
-            },
           {
                 "url": "https://console-intl.moedog.cloud",
-                "description": "站点2"
+                "description": "站点1"
             }
         ]
     },
