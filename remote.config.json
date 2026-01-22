@@ -4,12 +4,8 @@
     "panels": {
         "claude": [
           {
-                "url": "https://v2board.afeicloud.de",
+                "url": "https://7.myqieyun.net",
                 "description": "站点1"
-            },
-          {
-                "url": "https://v2bwyx.afeicloud.de",
-                "description": "站点2"
             }
         ]
     },
