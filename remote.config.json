@@ -1,10 +1,10 @@
 {
     "panelType": "v2board",
-    "websiteUrl": "https://example.com",
+    "websiteUrl": "https://ssp.afeicloud.de",
     "panels": {
         "claude": [
           {
-                "url": "https://7.myqieyun.net",
+                "url": "https://v2board.afeicloud.de",
                 "description": "站点1"
             }
         ]
