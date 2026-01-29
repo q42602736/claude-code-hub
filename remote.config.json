@@ -1,5 +1,5 @@
 {
-    "panelType": "v2board",
+    "panelType": "sspanel",
     "websiteUrl": "https://ssp.afeicloud.de",
     "panels": {
         "claude": [
