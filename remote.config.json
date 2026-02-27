@@ -1,31 +1,11 @@
 {
-    "panelType": "v2board",
+    "panelType": "sspanel",
     "websiteUrl": "https://v2board.afeicloud.de/",
     "panels": {
         "claude": [
           {
-                "url": "https://v2board.afeicloud.de/",
+                "url": "https://sspanel.afeicloud.de/",
                 "description": "站点1"
-            },
-          {
-                "url": "https://v2board.afeicloud.de/",
-                "description": "站点2"
-            },
-          {
-                "url": "https://v2board.afeicloud.de/",
-                "description": "站点3"
-            },
-          {
-                "url": "https://v2board.afeicloud.de/",
-                "description": "站点4"
-            },
-          {
-                "url": "https://v2board.afeicloud.de/",
-                "description": "站点5"
-            },
-          {
-                "url": "https://v2board.afeicloud.de/",
-                "description": "站点6"
             }
           
         ]
