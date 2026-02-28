@@ -1,10 +1,10 @@
 {
     "panelType": "sspanel",
-    "websiteUrl": "https://v2board.afeicloud.de/",
+    "websiteUrl": "https://wgyssp.com",
     "panels": {
         "claude": [
           {
-                "url": "https://sspanel.afeicloud.de/",
+                "url": "https://wgyssp.com",
                 "description": "站点1"
             }
           
