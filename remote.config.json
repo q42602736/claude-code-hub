@@ -1,10 +1,10 @@
 {
-    "panelType": "v2board",
+    "panelType": "xboard",
     "websiteUrl": "https://wgyssp.com",
     "panels": {
         "claude": [
           {
-                "url": "https://v2board.afeicloud.de/",
+                "url": "https://xb.afeicloud.de/",
                 "description": "站点1"
             }
           
