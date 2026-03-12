@@ -15,9 +15,9 @@
     "update": [{
       "description": "静态更新配置",
       "latest_version": "1.0.1",
-      "update_available": true,
+      "update_available": false,
       "download_url": "https://wgyssp.com/download/app-android.apk",
       "release_notes": "修复若干问题，优化稳定性",
-      "force_update": false
+      "force_update": true
     }]
 }
