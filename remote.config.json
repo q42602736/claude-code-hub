@@ -18,6 +18,6 @@
       "update_available": false,
       "download_url": "https://wgyssp.com/download/app-android.apk",
       "release_notes": "修复若干问题，优化稳定性",
-      "force_update": true
+      "force_update": false
     }]
 }
