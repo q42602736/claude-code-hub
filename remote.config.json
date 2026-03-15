@@ -18,7 +18,7 @@
   "update_available": false,
   "download_urls": {
     "android": "https://raw.githubusercontent.com/q42602736/claude-code-hub/main/Google%20%E8%BA%AB%E4%BB%BD%E9%AA%8C%E8%AF%81%E5%99%A8_7.0_apkcombo.com.apk",
-    "windows": "https://example.com/download/app-windows.exe",
+    "windows": "https://github.com/q42602736/claude-code-hub/releases/download/1.0.1/AfeiCloud-1.0.0-windows-amd64-setup.exe",
     "macos": "https://example.com/download/app-macos.dmg"
   },
   "release_notes": "修复若干问题，优化稳定性",
