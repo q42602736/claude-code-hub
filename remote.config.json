@@ -21,7 +21,7 @@
     "windows": "https://github.com/q42602736/claude-code-hub/releases/download/1.0.1/AfeiCloud-1.0.0-windows-amd64-setup.exe",
     "macos": "https://example.com/download/app-macos.dmg"
   },
-  "manual_download_url": "https://你的网盘或发布页"
+  "manual_download_url": "https://你的网盘或发布页",
   "release_notes": "修复若干问题，优化稳定性",
   "force_update": false
 }]
