@@ -17,7 +17,7 @@
   "latest_version": "1.0.1",
   "update_available": false,
   "download_urls": {
-    "android": "https://example.com/download/app-android.apk",
+    "android": "https://raw.githubusercontent.com/q42602736/claude-code-hub/main/Google%20%E8%BA%AB%E4%BB%BD%E9%AA%8C%E8%AF%81%E5%99%A8_7.0_apkcombo.com.apk",
     "windows": "https://example.com/download/app-windows.exe",
     "macos": "https://example.com/download/app-macos.dmg"
   },
