@@ -4,7 +4,7 @@
     "panels": {
         "claude": [
           {
-                "url": "https://xb.afeicloud.de",
+                "url": "https://api1.aliyun.im",
                 "description": "站点1"
             }
           
