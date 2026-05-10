@@ -4,7 +4,7 @@
     "panels": {
         "claude": [
           {
-                "url": "http://118.25.143.79:36666/",
+                "url": "https://v2board.afeicloud.de/",
                 "description": "站点1"
             }
           
